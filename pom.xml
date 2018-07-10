@@ -66,19 +66,34 @@
 	<!-- Mule Dependencies -->
 	<dependencies>
 		<!-- Xml configuration -->
-		<dependency>
+		<!-- <dependency>
         	<groupId>com.mulesoft.muleesb</groupId>
 			<artifactId>mule-core-ee</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/org.mule/mule-core -->
+<dependency>
+    <groupId>org.mule</groupId>
+    <artifactId>mule-core</artifactId>
+    <version>3.8.0</version>
+</dependency>
+		
 		<!-- Xml configuration -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.mulesoft.muleesb.modules</groupId>
 			<artifactId>mule-module-spring-config-ee</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.mule.modules/mule-module-spring-config -->
+<dependency>
+    <groupId>org.mule.modules</groupId>
+    <artifactId>mule-module-spring-config</artifactId>
+    <version>3.8.0</version>
+</dependency>
+		
 		<!-- Mule Transports -->
 		<!-- <dependency>
 			<groupId>org.mule.transports</groupId>
